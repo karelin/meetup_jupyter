@@ -11819,6 +11819,8 @@ a.anchor-link {
 </head>
 
 
+
+
 <body>
 
 
@@ -11830,7 +11832,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="From-IPython-to-Jupyter">From IPython to Jupyter<a class="anchor-link" href="#From-IPython-to-Jupyter">&#182;</a></h1><p>... how the attempt to make the standard Python console better lead to a new ecosystem for intercative computing, with support of multiple languages, ... and also how this relates to a big money and at least one legend programmer.</p>
+<h1 id="From-IPython-to-Jupyter">From IPython to Jupyter<a class="anchor-link" href="#From-IPython-to-Jupyter">&#182;</a></h1><p>... how the attempt to make the standard Python console better lead to a new ecosystem for interactive computing, with support of multiple languages, ... and also how this relates to a big money and at least one legend programmer.</p>
 
 </div>
 </div>
@@ -11846,7 +11848,7 @@ a.anchor-link {
 <li>Structure</li>
 <li>Usage</li>
 <li>Extensions</li>
-<li>Furure?</li>
+<li>Future?</li>
 </ul>
 
 </div>
@@ -11881,7 +11883,7 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Simplest-example">Simplest example<a class="anchor-link" href="#Simplest-example">&#182;</a></h1><p>Let's plot the function</p>
-$$y = \frac{sin(\pi x)}{\pi x}$$<p>for x in [-2.0, 2.0]</p>
+$$y = \frac{sin(\pi x)}{\pi x}$$<p>for $x$ in $[-2.0, 2.0]$</p>
 
 </div>
 </div>
@@ -12254,7 +12256,10 @@ AElFTkSuQmCC
 <li>Tornado, <a href="http://www.tornadoweb.org">http://www.tornadoweb.org</a></li>
 <li>jQuery, <a href="https://jquery.com/">https://jquery.com/</a></li>
 <li>Bootstrap, <a href="http://getbootstrap.com/">http://getbootstrap.com/</a> </li>
-<li>MathJax, <a href="https://www.mathjax.org/">https://www.mathjax.org/</a></li>
+<li><p>MathJax, <a href="https://www.mathjax.org/">https://www.mathjax.org/</a></p>
+</li>
+<li><p><code>.ipynb</code>, JSON format</p>
+</li>
 </ul>
 <h2 id="Projects">Projects<a class="anchor-link" href="#Projects">&#182;</a></h2><p><a href="https://github.com/ipython/ipython/wiki/Projects-using-IPython">https://github.com/ipython/ipython/wiki/Projects-using-IPython</a></p>
 <h2 id="Languages">Languages<a class="anchor-link" href="#Languages">&#182;</a></h2><p><a href="https://github.com/ipython/ipython/wiki/IPython%20kernels%20for%20other%20languages">https://github.com/ipython/ipython/wiki/IPython%20kernels%20for%20other%20languages</a></p>
@@ -12268,7 +12273,7 @@ AElFTkSuQmCC
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Big-Money-#-1:-ZMQ">Big Money # 1: ZMQ<a class="anchor-link" href="#Big-Money-#-1:-ZMQ">&#182;</a></h1><ul>
-<li>Started as a AMQP (<a href="http://www.amqp.org/">http://www.amqp.org/</a>) implementation<blockquote><p>a financial industry attempt to standardise the wire protocol for business messaging</p>
+<li>Started as a AMQP (<a href="http://www.amqp.org/">http://www.amqp.org/</a>) implementation<blockquote><p>a financial industry attempt to standardize the wire protocol for business messaging</p>
 </blockquote>
 </li>
 <li>Final implementation: BSD socket 'on steroids'</li>
@@ -12577,6 +12582,27 @@ axis : None or int or tuple of ints, optional
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Slides">Slides<a class="anchor-link" href="#Slides">&#182;</a></h1><ul>
+<li><code>jupyter nbconvert "From IPython to Jupyter.ipynb" --to slides --post serve</code></li>
+</ul>
+<ul>
+<li>Special cell types</li>
+<li><code>reveal.js</code>, <a href="https://github.com/hakimel/reveal.js/">https://github.com/hakimel/reveal.js/</a></li>
+<li>Example: <a href="http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html">http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html</a></li>
+<li>Intro: <a href="http://www.damian.oquanta.info/posts/make-your-slides-with-ipython.html">http://www.damian.oquanta.info/posts/make-your-slides-with-ipython.html</a></li>
+<li>Custom templates: <a href="http://www.damian.oquanta.info/posts/customizing-your-ipython-slides.html">http://www.damian.oquanta.info/posts/customizing-your-ipython-slides.html</a></li>
+<li>Templating: <a href="http://www.damian.oquanta.info/posts/change-the-ipython-slides-defaults-with-an-ipython-config-file.html">http://www.damian.oquanta.info/posts/change-the-ipython-slides-defaults-with-an-ipython-config-file.html</a></li>
+<li><code>nbconvert</code> doc: <a href="http://nbconvert.readthedocs.io/en/latest/usage.html">http://nbconvert.readthedocs.io/en/latest/usage.html</a></li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Books">Books<a class="anchor-link" href="#Books">&#182;</a></h1><p><img src="books.jpg" alt="IPython Cookbook &amp; Minibook"></p>
 <p><a href="http://ipython-books.github.io/">http://ipython-books.github.io/</a></p>
 
@@ -12588,7 +12614,25 @@ axis : None or int or tuple of ints, optional
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Another-intorduction">Another intorduction<a class="anchor-link" href="#Another-intorduction">&#182;</a></h1><p><a href="http://arogozhnikov.github.io/2016/09/10/jupyter-features.html">http://arogozhnikov.github.io/2016/09/10/jupyter-features.html</a></p>
+<h1 id="Docs,-intro">Docs, intro<a class="anchor-link" href="#Docs,-intro">&#182;</a></h1><ul>
+<li><a href="https://jupyter.readthedocs.io/">https://jupyter.readthedocs.io/</a><ul>
+<li>Work in progress</li>
+<li>Many parts from IPython</li>
+</ul>
+</li>
+<li>Project docs<ul>
+<li><a href="http://jupyter-notebook.readthedocs.io/">http://jupyter-notebook.readthedocs.io/</a></li>
+<li><a href="http://jupyter_console.readthedocs.io/">http://jupyter_console.readthedocs.io/</a></li>
+<li><a href="https://qtconsole.readthedocs.io/">https://qtconsole.readthedocs.io/</a></li>
+<li><a href="https://ipywidgets.readthedocs.io/">https://ipywidgets.readthedocs.io/</a></li>
+<li><a href="https://ipyparallel.readthedocs.io/">https://ipyparallel.readthedocs.io/</a></li>
+<li>...</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="http://arogozhnikov.github.io/2016/09/10/jupyter-features.html">http://arogozhnikov.github.io/2016/09/10/jupyter-features.html</a></li>
+</ul>
 
 </div>
 </div>
@@ -12607,7 +12651,7 @@ axis : None or int or tuple of ints, optional
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Future">Future<a class="anchor-link" href="#Future">&#182;</a></h1><p>Too much goind on, just some ideas...</p>
+<h1 id="Future">Future<a class="anchor-link" href="#Future">&#182;</a></h1><p>Too much going on, just some ideas...</p>
 
 </div>
 </div>
@@ -12725,6 +12769,15 @@ require(
 </script>
 
 </body>
+
+
+
+<script>
+
+// https://github.com/hakimel/reveal.js/
+Reveal.configure({ slideNumber: 'c/t' });
+
+</script>
 
 
 </html>
