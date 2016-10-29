@@ -1,0 +1,27 @@
+/* Adapted from https://github.com/damianavila/damian_blog/blob/master/posts/customizing-your-ipython-slides.ipynb */
+/* Some css fixes to use night theme with IPython slides */
+body {
+    background-color: #FFFFFF;
+    /* background-image: url(/background.png); */
+}
+
+/*
+.reveal p {
+    color: white;
+}
+.reveal ul, ol {
+    color: white;
+}
+
+div.output_area pre {
+    color: white;
+}
+
+div.output_stderr {
+    background: #F00;
+}
+
+.reveal table th, .reveal table td {
+    color: white;
+}
+*/
