@@ -16,9 +16,9 @@ Slides for several similar presentations on Jupyter
 
 ## From IPython to Jupyter
 
-The talk is about how an attempt to improve the standard Python console lead to completely
-new ecosystem for interactive computations, even with support of other programming languages,...
-and also how the big money and (at least) one legendary programmer are related to this.
+The talk is about how the attempt to make the standard Python console better lead to
+a new ecosystem for interactive computing, with support of multiple languages, ...
+and also how this relates to a big money and (at least) one legend programmer.
 
 ## Jupyter Notebook: Architecture and Usage Practice
 
