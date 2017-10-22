@@ -1,4 +1,4 @@
-# Slides on Jupyter
+# Slides on Jupyter Usage and Architecture
 
 Slides for several similar presentations on Jupyter 
 ([reveal.js](http://lab.hakim.se/reveal-js/)-based notebook):

@@ -1,3 +1,3 @@
-jupyter nbconvert "From IPython to Jupyter.ipynb" --to slides --post serve
+jupyter nbconvert "Jupyter_Notebook.ipynb" --to slides --post serve
 
 pause
