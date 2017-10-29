@@ -8,7 +8,7 @@ Slides for several similar presentations on Jupyter
   [video](https://www.youtube.com/watch?v=l43z05jC-X4).
 * "Jupyter Notebook: Architecture and Usage Practice", 
   [ODS October Meetup](https://events.dev.by/open-data-science-october-meetup),
-  October 27, 2017, Minsk, Belarus (in Russian).
+  October 27, 2017, Minsk, Belarus (in Russian), see [presented variant](https://github.com/karelin/meetup_jupyter/tree/ods_meetup_oct_2016).
 * "Jupyter Notebook: between interactive document and specialized web application",
   [PiterPy #4](http://www.piterpy.com), November 3-4, 2017, Saint-Petersburg, Russia.
 
