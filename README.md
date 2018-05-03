@@ -15,6 +15,9 @@ Slides for several similar presentations on Jupyter
   see [presented variant](https://github.com/karelin/meetup_jupyter/tree/piterpy-2017),
   video [ENG](https://www.youtube.com/watch?v=9b3gLX2aRBY),
   [RUS](https://www.youtube.com/watch?v=aCc1Wc8OobU).
+* "Jupyter Notebook: between interactive document and specialized web application",
+  [PyConLT'2018](https://2018.pycon.lt/), May 5, 2018, Kaunas, Lithuania,
+  see [presented variant](https://github.com/karelin/meetup_jupyter/tree/pyconlt-2018)
 
 # Abstracts of presentations
 
